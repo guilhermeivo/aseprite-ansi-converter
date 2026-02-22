@@ -7,3 +7,16 @@ Para instalar a extensão, basta clicar duas vezes nela no Windows ou macOS. Cas
 e usar em
 
 `File` > `Export` > `Export Ansi`
+
+## [Exemplo](example/)
+
+<div style="text-align: center;">
+<img style="float: left; image-rendering: pixelated; image-rendering: -moz-crisp-edges; image-rendering: crisp-edges;" src="example/original.png" height="350" title="original">
+<img src="example/printer.png" height="350" title="printer">
+</div>
+
+<div style="text-align: center;">
+
+imagem [**original**](example/original.png) / texto [**ansi**](example/sprite.ans) / [**printer**](example/printer.png) 8 bit color
+
+</div>
