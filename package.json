@@ -1,0 +1,19 @@
+{
+    "name": "ansi-converter",
+    "displayName": "Ansi Converter",
+    "description": "Convert pixel art to ANSI standard.",
+    "version": "0.1",
+    "author": { 
+        "name": "guilhermeivo",
+        "url": "https://github.com/guilhermeivo/aseprite-ansi-converter" 
+    },
+    "contributors": [ ],
+    "publisher": "guilhermeivo",
+    "license": "CC-BY-4.0",
+    "categories": [ "Other" ],
+    "contributes": {
+        "scripts": [
+            { "path": "./main.lua" }
+        ]
+    }
+}

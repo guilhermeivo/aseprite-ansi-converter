@@ -1,0 +1,12 @@
+#!/bin/bash
+
+SCRIPT_NAME=$(basename "$0")
+PROJECT_NAME=${PWD##*/}
+EXTENSION=".aseprite-extension"
+OUTPUT_FOLDER="out"
+EXCLUDE="$SCRIPT_NAME ${OUTPUT_FOLDER}/* .gitignore"
+FILE=$OUTPUT_FOLDER/$PROJECT_NAME$EXTENSION
+
+rm -rf $OUTPUT_FOLDER/*
+mkdir -p $OUTPUT_FOLDER
+zip -r $FILE . -x $EXCLUDE
