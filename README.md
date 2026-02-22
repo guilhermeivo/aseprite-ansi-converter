@@ -11,8 +11,8 @@ e usar em
 ## [Exemplo](example/)
 
 <div style="text-align: center;">
-<img style="float: left; image-rendering: pixelated; image-rendering: -moz-crisp-edges; image-rendering: crisp-edges;" src="example/original.png" height="350" title="original">
-<img src="example/printer.png" height="350" title="printer">
+<img style="float: left; image-rendering: pixelated; image-rendering: -moz-crisp-edges; image-rendering: crisp-edges;" src="example/original.png" width="350" height="350" title="original">
+<img src="example/printer.png" width="350" height="350" title="printer">
 </div>
 
 <div style="text-align: center;">
